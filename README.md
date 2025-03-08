@@ -5,3 +5,6 @@ Script de instalación de cliente OpenVPN para servidores Debian. Un script inte
 Copie y pegue esto en su terminal:
 
 wget https://raw.githubusercontent.com/pyopower/OPENVPN-client-script/main/openvpn_client.sh && chmod +x openvpn_client.sh && sudo ./openvpn_client.sh
+
+Tenga en cuenta que una vez iniciado el cliente todos los puertos y conexiones apuntarán a la IP de su servidor OPENVPN incluida la conexión ssh.
+Si no ha elegido en el menú interactivo la opción "habilitar inicio automático" el cliente ovpn no se conectará en el próximo reinicio del servidor.
