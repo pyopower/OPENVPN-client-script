@@ -7,6 +7,9 @@ Copie y pegue esto en su terminal:
 wget https://raw.githubusercontent.com/pyopower/OPENVPN-client-script/main/openvpn_client.sh && chmod +x openvpn_client.sh && sudo ./openvpn_client.sh
 
 
+
+Se iniciará el siguiente menú:
+
 --- Menú OpenVPN (debian) ---
 1. Instalar OpenVPN y configurar conexión
 2. Iniciar conexión VPN
